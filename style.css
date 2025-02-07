@@ -12,8 +12,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4; /* background color */
-    border: 5px solid #333; /* Add border to the whole page */
-    box-sizing: border-box; /* Include the border in the overall size */
+    box-sizing: border-box; /* Make sure padding and borders are included in the width */
+}
+
+/* Adding border around the whole page */
+html, body {
+    height: 100%; /* Make sure the body takes up the full height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    border: 5px solid #333; /* Border around the whole page */
 }
 
 /* Center aligning the headings and paragraphs */
@@ -24,7 +31,7 @@ h1, h2, p {
     width: 80%; /* Adjust width as needed */
 }
 
-/* Adding border and some padding around the site */
+/* Adding border and some padding around the site content */
 .container {
     display: flex;
     justify-content: center; /* Center horizontally */
@@ -41,3 +48,8 @@ img {
     height: auto; /* Maintain the aspect ratio */
     display: block; /* Remove extra space below the image */
     margin: 0 auto; /* Center the image */
+}
+
+/* Additional styling for links */
+a {
+    color: #000
