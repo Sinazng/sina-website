@@ -7,10 +7,11 @@
 /* Applying the font to the body */
 body {
     font-family: 'B Titr', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4; /* background color */
 }
 
 /* Center aligning the headings and paragraphs */
@@ -21,15 +22,26 @@ h1, h2, p {
     width: 80%; /* Adjust width as needed */
 }
 
-/* Additional styling for the entire page */
+/* Adding border and some padding around the site */
 .container {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     height: 100vh; /* Full viewport height */
+    border: 5px solid #333; /* Add border around the container */
+    padding: 20px; /* Add padding inside the container */
+    box-sizing: border-box;
 }
 
-/* Example of other potential adjustments */
+/* Adjusting the image size */
+img {
+    max-width: 100%; /* Limit the size of images */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image */
+}
+
+/* Additional styling for links */
 a {
     color: #000; /* Change link color */
     text-decoration: none; /* Remove underline from links */
