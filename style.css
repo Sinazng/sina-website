@@ -52,4 +52,22 @@ img {
 
 /* Additional styling for links */
 a {
-    color: #000
+    color: #000; /* Change link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Footer box */
+.footer-box {
+    width: 100px; /* Width of the square */
+    height: 100px; /* Height of the square */
+    background-color: #333; /* Dark background for the square */
+    color: white; /* White text color */
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    position: fixed; /* Fix the position at the bottom */
+    bottom: 20px; /* 20px from the bottom of the page */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for exact center alignment */
+    font-size: 14px; /* Font size */
+}
