@@ -1,11 +1,12 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    direction: rtl;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+@font-face {
+    font-family: 'B Titr';
+    src: url('fonts/BTitr.ttf') format('truetype');
 }
+
+body {
+    font-family: 'B Titr', sans-serif;
+}
+
 
 header {
     background-color: #333;
