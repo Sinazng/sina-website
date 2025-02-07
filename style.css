@@ -4,26 +4,26 @@
     src: url('fonts/BTitr.ttf') format('truetype');
 }
 
-/* Applying the font to the body */
+/* General page styling */
 body {
     font-family: 'B Titr', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Background color */
+    background-color: #f4f4f4;
     box-sizing: border-box;
 }
 
-/* Adding border around the whole page */
+/* Adding border around the entire page */
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    border: 5px solid #333; /* Border around the whole page */
+    border: 5px solid #333;
 }
 
-/* Center aligning the headings and paragraphs */
+/* Center-aligning text */
 h1, h2, p {
     text-align: center;
     margin-left: auto;
@@ -31,7 +31,7 @@ h1, h2, p {
     width: 80%;
 }
 
-/* Adding border and some padding around the site content */
+/* Styling for the main container */
 .container {
     display: flex;
     flex-direction: column;
@@ -47,23 +47,23 @@ h1, h2, p {
     border-radius: 10px;
 }
 
-/* Adjusting the image size */
+/* Image size adjustments */
 img {
-    max-width: 300px; /* Set a maximum width */
-    max-height: 300px; /* Set a maximum height */
-    height: auto;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
     display: block;
     margin: 20px auto;
     border-radius: 10px;
 }
 
-/* Additional styling for links */
+/* Link styling */
 a {
     color: #000;
     text-decoration: none;
 }
 
-/* Footer box */
+/* Footer box styling */
 .footer-box {
     width: 100px;
     height: 100px;
