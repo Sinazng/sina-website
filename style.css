@@ -1,5 +1,7 @@
 body {
-    font-family: 'Tahoma', sans-serif;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    direction: rtl;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -8,46 +10,28 @@ body {
 header {
     background-color: #333;
     color: white;
-    text-align: center;
     padding: 20px;
+    font-size: 24px;
 }
 
-header h1 {
-    margin: 0;
-}
-
-header p {
-    margin: 5px 0;
-}
-
-section {
+.intro {
+    margin: 50px auto;
+    max-width: 600px;
     padding: 20px;
-    margin: 10px;
-    background-color: white;
-    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-h2 {
-    color: #333;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    background: #e2e2e2;
-    margin: 5px 0;
-    padding: 5px;
+.intro img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
 }
 
 footer {
-    text-align: center;
+    margin-top: 50px;
     padding: 10px;
     background-color: #333;
     color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
