@@ -1,38 +1,36 @@
+/* Importing B Titr font */
 @font-face {
     font-family: 'B Titr';
     src: url('fonts/BTitr.ttf') format('truetype');
 }
 
+/* Applying the font to the body */
 body {
     font-family: 'B Titr', sans-serif;
-}
-
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
     font-size: 40px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 
-.intro {
-    margin: 50px auto;
-    max-width: 600px;
-    padding: 20px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+/* Center aligning the headings and paragraphs */
+h1, h2, p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; /* Adjust width as needed */
 }
 
-.intro img {
-    width: 100%;
-    max-width: 400px;
-    margin-top: 20px;
+/* Additional styling for the entire page */
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
 }
 
-footer {
-    margin-top: 50px;
-    padding: 10px;
-    background-color: #333;
-    color: white;
+/* Example of other potential adjustments */
+a {
+    color: #000; /* Change link color */
+    text-decoration: none; /* Remove underline from links */
 }
